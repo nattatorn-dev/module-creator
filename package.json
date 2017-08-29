@@ -1,0 +1,30 @@
+{
+  "name": "module-creator",
+  "version": "0.0.1",
+  "description": "react modules",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [
+    "React",
+    "Module",
+    "NPM",
+    "Command"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "chai-files": "^1.4.0",
+    "chai-fs": "^1.0.0",
+    "mocha": "^3.5.0"
+  },
+  "bin": {
+    "create-react-module": "bin/create.js"
+  },
+  "dependencies": {
+    "commander": "^2.11.0",
+    "mkdirp": "^0.5.1"
+  }
+}
